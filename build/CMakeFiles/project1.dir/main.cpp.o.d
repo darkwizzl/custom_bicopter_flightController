@@ -101,11 +101,17 @@ CMakeFiles/project1.dir/main.cpp.o: /home/hari/Desktop/bicopter/main.cpp \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_config.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.h \
+ /usr/include/newlib/string.h /usr/include/newlib/sys/_locale.h \
+ /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_country.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/include/pico/async_context.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/include/pico/cyw43_arch/arch_threadsafe_background.h \
+ /home/hari/Desktop/bicopter/ibus/ibus.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
- /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
- /home/hari/Desktop/bicopter/ibus/ibus.h \
- /home/hari/Desktop/bicopter/imu/imu.h \
- /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
- /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
- /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/i2c.h
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/pwm.h

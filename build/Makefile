@@ -194,6 +194,102 @@ pico_status_led_ws2812_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir/build
 .PHONY : pico_status_led_ws2812_pio_h/fast
 
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.o: home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.o
+
+# target to build an object file
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.o
+
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.i: home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.i
+
+# target to preprocess a source file
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.i
+
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.s: home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.s
+
+# target to generate assembly for a file
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.c.s
+
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.o: home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.o
+
+# target to build an object file
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.o
+
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.i: home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.i
+
+# target to preprocess a source file
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.i
+
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.s: home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.s
+
+# target to generate assembly for a file
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.c.s
+
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.o: home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.o
+
+# target to build an object file
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.o
+
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.i: home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.i
+
+# target to preprocess a source file
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.i
+
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.s: home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.s
+
+# target to generate assembly for a file
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.c.s
+
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.o: home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.o
+
+# target to build an object file
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.o
+
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.i: home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.i
+
+# target to preprocess a source file
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.i
+
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.s: home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.s
+
+# target to generate assembly for a file
+home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.c.s
+
 home/hari/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.o: home/hari/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.c.o
 .PHONY : home/hari/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.o
 
@@ -946,6 +1042,54 @@ home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o
 .PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.S.o
 
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.o
+
+# target to build an object file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.o
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.i: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.i
+
+# target to preprocess a source file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.i
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.s: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.s
+
+# target to generate assembly for a file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.s
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.o
+
+# target to build an object file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.o
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.i: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.i
+
+# target to preprocess a source file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.i
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.s: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.s
+
+# target to generate assembly for a file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.c.s
+
 home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.c.o
 .PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.o
 
@@ -994,30 +1138,6 @@ home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.s
 
-home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o
-.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.o
-
-# target to build an object file
-home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o
-.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.o
-
-home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.i: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.i
-.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.i
-
-# target to preprocess a source file
-home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.i
-.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.i
-
-home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.s: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.s
-.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.s
-
-# target to generate assembly for a file
-home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.s
-.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.c.s
-
 home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.o
 .PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.o
 
@@ -1049,6 +1169,30 @@ home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.o: h
 home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o
 .PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.o
+
+# target to build an object file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.o
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.i: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.i
+
+# target to preprocess a source file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.i
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.s: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.s
+
+# target to generate assembly for a file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.s
 
 home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.o
 .PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.o
@@ -1290,6 +1434,54 @@ home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.s
 
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.o
+
+# target to build an object file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.o
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.i: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.i
+
+# target to preprocess a source file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.i
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.s: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.s
+
+# target to generate assembly for a file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.c.s
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.o
+
+# target to build an object file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
+
+# target to preprocess a source file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
+
+# target to generate assembly for a file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+
 home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.c.o
 .PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.o
 
@@ -1425,6 +1617,198 @@ home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.s: home
 home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.s
 .PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.s
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.o
+
+# target to build an object file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
+
+# target to preprocess a source file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.s
+
+# target to generate assembly for a file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o
+
+# target to build an object file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
+
+# target to preprocess a source file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s
+
+# target to generate assembly for a file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o
+
+# target to build an object file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
+
+# target to preprocess a source file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s
+
+# target to generate assembly for a file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o
+
+# target to build an object file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
+
+# target to preprocess a source file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s
+
+# target to generate assembly for a file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o
+
+# target to build an object file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
+
+# target to preprocess a source file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
+
+# target to generate assembly for a file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o
+
+# target to build an object file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
+
+# target to preprocess a source file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
+
+# target to generate assembly for a file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o
+
+# target to build an object file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
+
+# target to preprocess a source file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
+
+# target to generate assembly for a file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.o
+
+# target to build an object file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
+
+# target to preprocess a source file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
+
+# target to generate assembly for a file
+home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+.PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
 home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.o: home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.o
 .PHONY : home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.o
@@ -2010,30 +2394,6 @@ ibus/ibus.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/ibus/ibus.cpp.s
 .PHONY : ibus/ibus.cpp.s
 
-imu/imu.o: imu/imu.cpp.o
-.PHONY : imu/imu.o
-
-# target to build an object file
-imu/imu.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/imu/imu.cpp.o
-.PHONY : imu/imu.cpp.o
-
-imu/imu.i: imu/imu.cpp.i
-.PHONY : imu/imu.i
-
-# target to preprocess a source file
-imu/imu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/imu/imu.cpp.i
-.PHONY : imu/imu.cpp.i
-
-imu/imu.s: imu/imu.cpp.s
-.PHONY : imu/imu.s
-
-# target to generate assembly for a file
-imu/imu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/imu/imu.cpp.s
-.PHONY : imu/imu.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -2072,6 +2432,18 @@ help:
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
 	@echo "... project1"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.i"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ctrl.s"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.i"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_ll.s"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.i"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_lwip.s"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.i"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/lib/cyw43-driver/src/cyw43_stats.s"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.o"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/audio/audio_device.s"
@@ -2166,19 +2538,25 @@ help:
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.s"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_divider/divider.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.i"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.s"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.i"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_exception/exception.s"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.o"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.i"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_flash/flash.s"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.o"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.s"
-	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.o"
-	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.i"
-	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/i2c.s"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.o"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.s"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.i"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.s"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.o"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.i"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.s"
@@ -2209,6 +2587,12 @@ help:
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.o"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.s"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.i"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_base.s"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.i"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_async_context/async_context_threadsafe_background.s"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.o"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.i"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_atomic/atomic.s"
@@ -2226,6 +2610,30 @@ help:
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.o"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.i"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.s"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.i"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch.s"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.o"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.i"
+	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cyw43_driver/cyw43_driver.s"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.o"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.o"
 	@echo "... home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.o"
@@ -2299,9 +2707,6 @@ help:
 	@echo "... ibus/ibus.o"
 	@echo "... ibus/ibus.i"
 	@echo "... ibus/ibus.s"
-	@echo "... imu/imu.o"
-	@echo "... imu/imu.i"
-	@echo "... imu/imu.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
