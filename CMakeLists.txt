@@ -13,12 +13,13 @@ pico_sdk_init()
     
 add_executable(project1 
                 main.cpp
-                ibus/ibus.cpp)
+                ibus/ibus.cpp
+                imu/imu.cpp)
 
 target_link_libraries(project1 
                       pico_stdlib
                       hardware_uart
-                      pico_cyw43_arch_none
+                      hardware_i2c
                       hardware_pwm)
 
 pico_enable_stdio_usb(project1 1)
@@ -26,7 +27,8 @@ pico_enable_stdio_uart(project1 0)
 
 target_include_directories(project1 PRIVATE 
                             ${CMAKE_CURRENT_LIST_DIR}
-                            ${CMAKE_CURRENT_LIST_DIR}/ibus)
+                            ${CMAKE_CURRENT_LIST_DIR}/ibus
+                            ${CMAKE_CURRENT_LIST_DIR}/imu)
 
 
 

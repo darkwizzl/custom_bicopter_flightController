@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <math.h>
+
 #include "pico/stdlib.h"
-#include "pico/cyw43_arch.h"
-#include "ibus.h"
 #include "hardware/pwm.h"
 #include "hardware/gpio.h"
+
+#include "ibus.h"
+#include "imu.h"
 
 #define PI 3.14159265358979323846f
 #define MAX_DEFLECTION 90
@@ -23,7 +25,7 @@
 
 int finAngles[4] = {45, 135,225, 315};
 int servoList[4] = {servo1,servo2,servo3,servo4};
-int servoNeutral[4] = {90-5,90-30,90+4,90-22};
+int servoNeutral[4] = {90,90,90,90};
 
 float toRadians(float deg){
     return (deg*PI/180.0f);
@@ -95,7 +97,7 @@ void toggleLed(int led, int time_ms){
 }
 
 int main(){
-
+    
     //gp16-Green
     gpio_init(GREEN);
     gpio_set_dir(GREEN, GPIO_OUT);
@@ -146,37 +148,33 @@ int main(){
     setServo(bldcBot,0);
     setServo(bldcTop,0);
 
-    callibrateEsc();
+    //callibrateEsc();
     resetAllMotors();
+    
+    MPU6050init();
+    float gyro[3];
+    float accel[3];
+    float angle = 0.0f;
+
+    float roll  = 0.0f;
+    float pitch = 0.0f;
+
+    absolute_time_t prevTime = get_absolute_time();
 
     while(true){
-        if(readIBus(IBusData)){
-            if(IBusData[4] > 1900){
-                fin_mixing(&IBusData[0]);
-                pwm_set_gpio_level(bldcTop, IBusData[2]);
-                pwm_set_gpio_level(bldcBot, IBusData[2]);
-                gpio_put(17,1);
-                toggleLed(GREEN,50); 
-            }
-                    
-            else{
-                //setting everything to zero
-                resetAllMotors();
-                gpio_put(RED, 0);
-                gpio_put(GREEN,1);
-                gpio_put(BLUE,1);    
-            }
-        }
+        // dt
+        absolute_time_t now = get_absolute_time();
+        float dt = absolute_time_diff_us(prevTime, now) / 1000000.0f;
+        prevTime = now;
 
-        else{
-            //setting everything to zero
-            resetAllMotors();
-            gpio_put(RED,0);
-            gpio_put(GREEN,0);
-            gpio_put(BLUE,1);
-        }
+        MPU6050read(gyro, accel);
+
+        float accel_roll  = atan2f(accel[1], accel[2]) * 180/PI;
+        float accel_pitch = atan2f(-accel[0], sqrtf(accel[1]*accel[1] + accel[2]*accel[2])) * 180/PI;
+
+        roll  = 0.98f * (roll  + gyro[0]*dt) + 0.02f * accel_roll;
+        pitch = 0.98f * (pitch + gyro[1]*dt) + 0.02f * accel_pitch;
+
+        printf("roll: %.2f  pitch: %.2f  dt: %.4f\n", roll, pitch, dt);
     }
 }
-
-
-    
