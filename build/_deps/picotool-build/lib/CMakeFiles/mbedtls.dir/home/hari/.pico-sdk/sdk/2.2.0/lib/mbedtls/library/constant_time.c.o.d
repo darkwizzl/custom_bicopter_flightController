@@ -27,7 +27,7 @@ lib/CMakeFiles/mbedtls.dir/home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/con
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/library/common.h \
  /home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/build_info.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
  /home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_legacy_crypto.h \
  /home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_x509.h \
  /home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/config_adjust_ssl.h \

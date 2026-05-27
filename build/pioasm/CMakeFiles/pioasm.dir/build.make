@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/hari/.pico-sdk/sdk/2.2.0/tools/pioasm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hari/Desktop/ibusPico/build/pioasm
+CMAKE_BINARY_DIR = /home/hari/Desktop/bicopter/build/pioasm
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pioasm.dir/depend.make
@@ -250,6 +250,6 @@ CMakeFiles/pioasm.dir/clean:
 .PHONY : CMakeFiles/pioasm.dir/clean
 
 CMakeFiles/pioasm.dir/depend:
-	cd /home/hari/Desktop/ibusPico/build/pioasm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hari/.pico-sdk/sdk/2.2.0/tools/pioasm /home/hari/.pico-sdk/sdk/2.2.0/tools/pioasm /home/hari/Desktop/ibusPico/build/pioasm /home/hari/Desktop/ibusPico/build/pioasm /home/hari/Desktop/ibusPico/build/pioasm/CMakeFiles/pioasm.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/hari/Desktop/bicopter/build/pioasm && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hari/.pico-sdk/sdk/2.2.0/tools/pioasm /home/hari/.pico-sdk/sdk/2.2.0/tools/pioasm /home/hari/Desktop/bicopter/build/pioasm /home/hari/Desktop/bicopter/build/pioasm /home/hari/Desktop/bicopter/build/pioasm/CMakeFiles/pioasm.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/pioasm.dir/depend
 

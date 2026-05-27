@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/hari/Desktop/ibusPico/build/_deps/picotool-src"
-  "/home/hari/Desktop/ibusPico/build/_deps/picotool-build"
-  "/home/hari/Desktop/ibusPico/build/_deps"
-  "/home/hari/Desktop/ibusPico/build/picotool/tmp"
-  "/home/hari/Desktop/ibusPico/build/picotool/src/picotoolBuild-stamp"
-  "/home/hari/Desktop/ibusPico/build/picotool/src"
-  "/home/hari/Desktop/ibusPico/build/picotool/src/picotoolBuild-stamp"
+  "/home/hari/Desktop/bicopter/build/_deps/picotool-src"
+  "/home/hari/Desktop/bicopter/build/_deps/picotool-build"
+  "/home/hari/Desktop/bicopter/build/_deps"
+  "/home/hari/Desktop/bicopter/build/picotool/tmp"
+  "/home/hari/Desktop/bicopter/build/picotool/src/picotoolBuild-stamp"
+  "/home/hari/Desktop/bicopter/build/picotool/src"
+  "/home/hari/Desktop/bicopter/build/picotool/src/picotoolBuild-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/hari/Desktop/ibusPico/build/picotool/src/picotoolBuild-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/hari/Desktop/bicopter/build/picotool/src/picotoolBuild-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/hari/Desktop/ibusPico/build/picotool/src/picotoolBuild-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/hari/Desktop/bicopter/build/picotool/src/picotoolBuild-stamp${cfgdir}") # cfgdir has leading slash
 endif()

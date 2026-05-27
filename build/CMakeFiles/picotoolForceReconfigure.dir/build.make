@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hari/Desktop/ibusPico
+CMAKE_SOURCE_DIR = /home/hari/Desktop/bicopter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hari/Desktop/ibusPico/build
+CMAKE_BINARY_DIR = /home/hari/Desktop/bicopter/build
 
 # Utility rule file for picotoolForceReconfigure.
 
@@ -67,7 +67,7 @@ include CMakeFiles/picotoolForceReconfigure.dir/compiler_depend.make
 include CMakeFiles/picotoolForceReconfigure.dir/progress.make
 
 CMakeFiles/picotoolForceReconfigure:
-	/usr/bin/cmake -E touch_nocreate /home/hari/Desktop/ibusPico/CMakeLists.txt
+	/usr/bin/cmake -E touch_nocreate /home/hari/Desktop/bicopter/CMakeLists.txt
 
 picotoolForceReconfigure: CMakeFiles/picotoolForceReconfigure
 picotoolForceReconfigure: CMakeFiles/picotoolForceReconfigure.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/picotoolForceReconfigure.dir/clean:
 .PHONY : CMakeFiles/picotoolForceReconfigure.dir/clean
 
 CMakeFiles/picotoolForceReconfigure.dir/depend:
-	cd /home/hari/Desktop/ibusPico/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hari/Desktop/ibusPico /home/hari/Desktop/ibusPico /home/hari/Desktop/ibusPico/build /home/hari/Desktop/ibusPico/build /home/hari/Desktop/ibusPico/build/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/hari/Desktop/bicopter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hari/Desktop/bicopter /home/hari/Desktop/bicopter /home/hari/Desktop/bicopter/build /home/hari/Desktop/bicopter/build /home/hari/Desktop/bicopter/build/CMakeFiles/picotoolForceReconfigure.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/picotoolForceReconfigure.dir/depend
 

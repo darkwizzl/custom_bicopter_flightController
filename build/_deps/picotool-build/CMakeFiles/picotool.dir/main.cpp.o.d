@@ -1,7 +1,7 @@
 CMakeFiles/picotool.dir/main.cpp.o: \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/main.cpp \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/cli.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/cli.h \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -187,7 +187,7 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /usr/include/c++/13/bits/stl_numeric.h /usr/include/c++/13/sstream \
  /usr/include/c++/13/bits/sstream.tcc /usr/include/c++/13/limits \
  /usr/include/c++/13/cstdint \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/clipp/clipp.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/clipp/clipp.h \
  /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
@@ -270,22 +270,22 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /home/hari/.pico-sdk/sdk/2.2.0/src/host/pico_platform/include/pico/platform.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/platform_defs.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/get_enc_bootloader.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/get_enc_bootloader.h \
  /usr/include/c++/13/fstream \
  /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/picoboot_connection/picoboot_connection.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/common/boot_picoboot_headers/include/boot/picoboot.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/elf/addresses.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/bintool/bintool.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/elf/addresses.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/bintool/bintool.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
  /usr/include/c++/13/stdlib.h \
  /home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/sha256.h \
  /home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/private_access.h \
  /home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/build_info.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -311,11 +311,11 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/entropy.h \
  /home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/pk.h \
  /home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/version.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/elf/elf_file.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/elf/elf.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/elf/addresses.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/bintool/metadata.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/elf/elf_file.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/elf/elf.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/elf/addresses.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/bintool/metadata.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/common/pico_binary_info/include/pico/binary_info.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/common/pico_binary_info/include/pico/binary_info/defs.h \
@@ -323,9 +323,9 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /home/hari/.pico-sdk/sdk/2.2.0/src/common/pico_binary_info/include/pico/binary_info/code.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb/reset_interface.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/elf/elf.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/otp.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/elf/elf.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/otp.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
  /usr/include/c++/13/cstddef /usr/include/c++/13/forward_list \
  /usr/include/c++/13/bits/forward_list.h \
  /usr/include/c++/13/bits/forward_list.tcc \
@@ -343,7 +343,7 @@ CMakeFiles/picotool.dir/main.cpp.o: \
  /usr/include/c++/13/bits/gslice_array.h \
  /usr/include/c++/13/bits/mask_array.h \
  /usr/include/c++/13/bits/indirect_array.h /usr/include/c++/13/version \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/errors/errors.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/errors/errors.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2350/hardware_regs/include/hardware/regs/otp_data.h \
  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
  /usr/include/x86_64-linux-gnu/bits/ioctls.h \

@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/hari/.pico-sdk/sdk/2.2.0/tools/pioasm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hari/Desktop/ibusPico/build/pioasm
+CMAKE_BINARY_DIR = /home/hari/Desktop/bicopter/build/pioasm
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hari/Desktop/ibusPico/build/pioasm/CMakeFiles /home/hari/Desktop/ibusPico/build/pioasm//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hari/Desktop/bicopter/build/pioasm/CMakeFiles /home/hari/Desktop/bicopter/build/pioasm//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hari/Desktop/ibusPico/build/pioasm/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hari/Desktop/bicopter/build/pioasm/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,5 +1,5 @@
 elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/elf2uf2/elf2uf2.cpp \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/elf2uf2/elf2uf2.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/cstdio \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -156,7 +156,7 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h /usr/include/c++/13/cinttypes \
  /usr/include/c++/13/cstdint /usr/include/inttypes.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/elf2uf2/elf2uf2.h \
  /usr/include/c++/13/fstream /usr/include/c++/13/istream \
  /usr/include/c++/13/ios /usr/include/c++/13/bits/char_traits.h \
  /usr/include/c++/13/bits/localefwd.h \
@@ -195,9 +195,9 @@ elf2uf2/CMakeFiles/elf2uf2.dir/elf2uf2.cpp.o: \
  /usr/include/c++/13/bits/fstream.tcc \
  /home/hari/.pico-sdk/sdk/2.2.0/src/common/boot_uf2_headers/include/boot/uf2.h \
  /usr/include/assert.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/elf/elf_file.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/elf/elf_file.h \
  /usr/include/c++/13/iostream \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/elf/elf.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/elf/elf.h \
  /usr/include/c++/13/sstream /usr/include/c++/13/bits/sstream.tcc \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/elf/addresses.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/errors/errors.h
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/elf/addresses.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/errors/errors.h

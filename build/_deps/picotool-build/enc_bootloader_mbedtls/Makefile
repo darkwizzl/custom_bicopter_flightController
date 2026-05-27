@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hari/Desktop/ibusPico/build/_deps/picotool-src/enc_bootloader
+CMAKE_SOURCE_DIR = /home/hari/Desktop/bicopter/build/_deps/picotool-src/enc_bootloader
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hari/Desktop/ibusPico/build/_deps/picotool-build/enc_bootloader_mbedtls
+CMAKE_BINARY_DIR = /home/hari/Desktop/bicopter/build/_deps/picotool-build/enc_bootloader_mbedtls
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hari/Desktop/ibusPico/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles /home/hari/Desktop/ibusPico/build/_deps/picotool-build/enc_bootloader_mbedtls//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hari/Desktop/bicopter/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles /home/hari/Desktop/bicopter/build/_deps/picotool-build/enc_bootloader_mbedtls//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hari/Desktop/ibusPico/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hari/Desktop/bicopter/build/_deps/picotool-build/enc_bootloader_mbedtls/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

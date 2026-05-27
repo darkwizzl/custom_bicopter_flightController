@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/home/hari/Desktop/ibusPico/build/_deps/picotool-src
+source_dir=/home/hari/Desktop/bicopter/build/_deps/picotool-src
 work_dir=
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hari/.pico-sdk/sdk/2.2.0/tools/pioasm -I/home/hari/.pico-sdk/sdk/2.2.0/tools/pioasm/gen -I/home/hari/Desktop/ibusPico/build/pioasm
+CXX_INCLUDES = -I/home/hari/.pico-sdk/sdk/2.2.0/tools/pioasm -I/home/hari/.pico-sdk/sdk/2.2.0/tools/pioasm/gen -I/home/hari/Desktop/bicopter/build/pioasm
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++11
 

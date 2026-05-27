@@ -1,33 +1,24 @@
 CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c.o: \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_math.c \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/math.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/reent.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/_ansi.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/newlib.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/_newlib_version.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/config.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/ieeefp.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/features.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/cdefs.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/_default_types.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_types.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/machine/_types.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/lock.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/_ansi.h \
+ /usr/include/newlib/math.h /usr/include/newlib/sys/reent.h \
+ /usr/include/newlib/_ansi.h /usr/include/newlib/newlib.h \
+ /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
+ /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+ /usr/include/newlib/sys/cdefs.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/sys/lock.h /usr/include/newlib/_ansi.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/include/pico/double.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/types.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/assert.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/assert.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/stdint.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_intsup.h \
- /home/hari/.pico-sdk/toolchain/14_2_Rel1/arm-none-eabi/include/sys/_stdint.h \
- /home/hari/Desktop/ibusPico/build/generated/pico_base/pico/version.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+ /usr/include/newlib/assert.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
+ /home/hari/Desktop/bicopter/build/generated/pico_base/pico/version.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/config.h \
- /home/hari/Desktop/ibusPico/build/generated/pico_base/pico/config_autogen.h \
+ /home/hari/Desktop/bicopter/build/generated/pico_base/pico/config_autogen.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/boards/include/boards/pico_w.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/include/pico/platform.h \

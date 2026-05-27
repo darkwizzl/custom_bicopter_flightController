@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hari/Desktop/ibusPico
+CMAKE_SOURCE_DIR = /home/hari/Desktop/bicopter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hari/Desktop/ibusPico/build
+CMAKE_BINARY_DIR = /home/hari/Desktop/bicopter/build
 
 # Utility rule file for bs2_default_bin.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/progress.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin: pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2040/boot_stage2/bs2_default.bin: pico-sdk/src/rp2040/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hari/Desktop/ibusPico/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd /home/hari/Desktop/ibusPico/build/pico-sdk/src/rp2040/boot_stage2 && /home/hari/.pico-sdk/toolchain/14_2_Rel1/bin/arm-none-eabi-objcopy -Obinary /home/hari/Desktop/ibusPico/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.elf /home/hari/Desktop/ibusPico/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/hari/Desktop/bicopter/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
+	cd /home/hari/Desktop/bicopter/build/pico-sdk/src/rp2040/boot_stage2 && /usr/bin/arm-none-eabi-objcopy -Obinary /home/hari/Desktop/bicopter/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.elf /home/hari/Desktop/bicopter/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 bs2_default_bin: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin
 bs2_default_bin: pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
@@ -82,10 +82,10 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build: bs2_defaul
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
-	cd /home/hari/Desktop/ibusPico/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
+	cd /home/hari/Desktop/bicopter/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /home/hari/Desktop/ibusPico/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hari/Desktop/ibusPico /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/boot_stage2 /home/hari/Desktop/ibusPico/build /home/hari/Desktop/ibusPico/build/pico-sdk/src/rp2040/boot_stage2 /home/hari/Desktop/ibusPico/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/hari/Desktop/bicopter/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hari/Desktop/bicopter /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/boot_stage2 /home/hari/Desktop/bicopter/build /home/hari/Desktop/bicopter/build/pico-sdk/src/rp2040/boot_stage2 /home/hari/Desktop/bicopter/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

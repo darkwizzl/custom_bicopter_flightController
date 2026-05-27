@@ -1,5 +1,5 @@
-/home/hari/Desktop/ibusPico/build/pioasm-install/pioasm/pioasm
-/home/hari/Desktop/ibusPico/build/pioasm-install/pioasm/pioasmTargets.cmake
-/home/hari/Desktop/ibusPico/build/pioasm-install/pioasm/pioasmTargets-release.cmake
-/home/hari/Desktop/ibusPico/build/pioasm-install/pioasm/pioasmConfig.cmake
-/home/hari/Desktop/ibusPico/build/pioasm-install/pioasm/pioasmConfigVersion.cmake
+/home/hari/Desktop/bicopter/build/pioasm-install/pioasm/pioasm
+/home/hari/Desktop/bicopter/build/pioasm-install/pioasm/pioasmTargets.cmake
+/home/hari/Desktop/bicopter/build/pioasm-install/pioasm/pioasmTargets-release.cmake
+/home/hari/Desktop/bicopter/build/pioasm-install/pioasm/pioasmConfig.cmake
+/home/hari/Desktop/bicopter/build/pioasm-install/pioasm/pioasmConfigVersion.cmake

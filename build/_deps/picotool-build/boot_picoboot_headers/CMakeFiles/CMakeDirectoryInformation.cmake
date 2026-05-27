@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/hari/.pico-sdk/sdk/2.2.0/src/common/boot_picoboot_headers")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/hari/Desktop/ibusPico/build/_deps/picotool-build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/hari/Desktop/bicopter/build/_deps/picotool-build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

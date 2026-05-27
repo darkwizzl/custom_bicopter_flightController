@@ -1,5 +1,5 @@
 bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/bintool/bintool.cpp \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/bintool/bintool.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -204,20 +204,20 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
  /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/erase_if.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/elf/elf_file.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/elf/elf_file.h \
  /usr/include/c++/13/cstdarg /usr/include/c++/13/cstring \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/elf/elf.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/elf/elf.h \
  /usr/include/c++/13/sstream /usr/include/c++/13/bits/sstream.tcc \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/elf/addresses.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/elf/addresses.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/bintool/mbedtls_wrapper.h \
  /usr/include/c++/13/stdlib.h /usr/include/assert.h \
  /home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/sha256.h \
  /home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/private_access.h \
  /home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/build_info.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/lib/include/picotool_mbedtls_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -244,9 +244,9 @@ bintool/CMakeFiles/bintool.dir/bintool.cpp.o: \
  /home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/pk.h \
  /home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/version.h \
  /home/hari/.pico-sdk/sdk/2.2.0/lib/mbedtls/include/mbedtls/error.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/bintool/bintool.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/bintool/bintool.h \
  /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/bintool/metadata.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/bintool/metadata.h \
  /usr/include/c++/13/iterator /usr/include/c++/13/bits/stream_iterator.h \
  /usr/include/c++/13/cassert \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/errors/errors.h
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/errors/errors.h

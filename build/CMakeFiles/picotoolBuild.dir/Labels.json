@@ -2,37 +2,37 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/hari/Desktop/ibusPico/build/CMakeFiles/picotoolBuild"
+			"file" : "/home/hari/Desktop/bicopter/build/CMakeFiles/picotoolBuild"
 		},
 		{
-			"file" : "/home/hari/Desktop/ibusPico/build/CMakeFiles/picotoolBuild.rule"
+			"file" : "/home/hari/Desktop/bicopter/build/CMakeFiles/picotoolBuild.rule"
 		},
 		{
-			"file" : "/home/hari/Desktop/ibusPico/build/CMakeFiles/picotoolBuild-complete.rule"
+			"file" : "/home/hari/Desktop/bicopter/build/CMakeFiles/picotoolBuild-complete.rule"
 		},
 		{
-			"file" : "/home/hari/Desktop/ibusPico/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule"
+			"file" : "/home/hari/Desktop/bicopter/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule"
 		},
 		{
-			"file" : "/home/hari/Desktop/ibusPico/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule"
+			"file" : "/home/hari/Desktop/bicopter/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule"
 		},
 		{
-			"file" : "/home/hari/Desktop/ibusPico/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule"
+			"file" : "/home/hari/Desktop/bicopter/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule"
 		},
 		{
-			"file" : "/home/hari/Desktop/ibusPico/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule"
+			"file" : "/home/hari/Desktop/bicopter/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule"
 		},
 		{
-			"file" : "/home/hari/Desktop/ibusPico/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule"
+			"file" : "/home/hari/Desktop/bicopter/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule"
 		},
 		{
-			"file" : "/home/hari/Desktop/ibusPico/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule"
+			"file" : "/home/hari/Desktop/bicopter/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule"
 		},
 		{
-			"file" : "/home/hari/Desktop/ibusPico/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule"
+			"file" : "/home/hari/Desktop/bicopter/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule"
 		},
 		{
-			"file" : "/home/hari/Desktop/ibusPico/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule"
+			"file" : "/home/hari/Desktop/bicopter/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule"
 		}
 	],
 	"target" : 

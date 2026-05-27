@@ -1,5 +1,5 @@
 CMakeFiles/picotool.dir/no_otp.cpp.o: \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/no_otp.cpp \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/no_otp.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/algorithm \
  /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -89,7 +89,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: \
  /usr/include/c++/13/bits/stl_multimap.h \
  /usr/include/c++/13/bits/range_access.h \
  /usr/include/c++/13/bits/erase_if.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/otp.h \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/otp.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/stringfwd.h \
  /usr/include/c++/13/bits/char_traits.h \
  /usr/include/c++/13/bits/postypes.h /usr/include/c++/13/cwchar \
@@ -136,7 +136,7 @@ CMakeFiles/picotool.dir/no_otp.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /home/hari/Desktop/ibusPico/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
+ /home/hari/Desktop/bicopter/build/_deps/picotool-src/lib/nlohmann_json/single_include/nlohmann/json.hpp \
  /usr/include/c++/13/cstddef /usr/include/c++/13/functional \
  /usr/include/c++/13/bits/std_function.h /usr/include/c++/13/typeinfo \
  /usr/include/c++/13/iterator /usr/include/c++/13/bits/stream_iterator.h \

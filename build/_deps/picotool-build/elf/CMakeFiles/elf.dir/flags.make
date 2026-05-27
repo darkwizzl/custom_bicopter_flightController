@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/hari/Desktop/ibusPico/build/_deps/picotool-src/elf -I/home/hari/Desktop/ibusPico/build/_deps/picotool-src/errors
+CXX_INCLUDES = -I/home/hari/Desktop/bicopter/build/_deps/picotool-src/elf -I/home/hari/Desktop/bicopter/build/_deps/picotool-src/errors
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++14
 

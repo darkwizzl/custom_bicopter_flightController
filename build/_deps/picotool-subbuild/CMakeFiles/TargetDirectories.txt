@@ -1,3 +1,3 @@
-/home/hari/Desktop/ibusPico/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate.dir
-/home/hari/Desktop/ibusPico/build/_deps/picotool-subbuild/CMakeFiles/edit_cache.dir
-/home/hari/Desktop/ibusPico/build/_deps/picotool-subbuild/CMakeFiles/rebuild_cache.dir
+/home/hari/Desktop/bicopter/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate.dir
+/home/hari/Desktop/bicopter/build/_deps/picotool-subbuild/CMakeFiles/edit_cache.dir
+/home/hari/Desktop/bicopter/build/_deps/picotool-subbuild/CMakeFiles/rebuild_cache.dir

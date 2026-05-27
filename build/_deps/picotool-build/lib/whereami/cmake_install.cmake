@@ -1,8 +1,8 @@
-# Install script for directory: /home/hari/Desktop/ibusPico/build/_deps/picotool-src/lib/whereami
+# Install script for directory: /home/hari/Desktop/bicopter/build/_deps/picotool-src/lib/whereami
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hari/Desktop/ibusPico/build/_deps")
+  set(CMAKE_INSTALL_PREFIX "/home/hari/Desktop/bicopter/build/_deps")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
