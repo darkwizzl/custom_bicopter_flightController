@@ -1,7 +1,0 @@
-/home/hari/Desktop/bicopter/build/pioasm/CMakeFiles/pioasm.dir
-/home/hari/Desktop/bicopter/build/pioasm/CMakeFiles/edit_cache.dir
-/home/hari/Desktop/bicopter/build/pioasm/CMakeFiles/rebuild_cache.dir
-/home/hari/Desktop/bicopter/build/pioasm/CMakeFiles/list_install_components.dir
-/home/hari/Desktop/bicopter/build/pioasm/CMakeFiles/install.dir
-/home/hari/Desktop/bicopter/build/pioasm/CMakeFiles/install/local.dir
-/home/hari/Desktop/bicopter/build/pioasm/CMakeFiles/install/strip.dir
