@@ -1,5 +1,6 @@
-#include "imu.h"
+#include "mpu6050.h"
 
+//MPU
 void MPU6050init(){
     i2c_init(I2C,BAUDRATE);
 

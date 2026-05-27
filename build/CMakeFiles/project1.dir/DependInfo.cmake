@@ -227,7 +227,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o" "gcc" "CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_unique_id/unique_id.c.o.d"
   "/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp" "CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "CMakeFiles/project1.dir/home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
   "/home/hari/Desktop/bicopter/ibus/ibus.cpp" "CMakeFiles/project1.dir/ibus/ibus.cpp.o" "gcc" "CMakeFiles/project1.dir/ibus/ibus.cpp.o.d"
-  "/home/hari/Desktop/bicopter/imu/imu.cpp" "CMakeFiles/project1.dir/imu/imu.cpp.o" "gcc" "CMakeFiles/project1.dir/imu/imu.cpp.o.d"
+  "/home/hari/Desktop/bicopter/imu/hmc5883l.cpp" "CMakeFiles/project1.dir/imu/hmc5883l.cpp.o" "gcc" "CMakeFiles/project1.dir/imu/hmc5883l.cpp.o.d"
+  "/home/hari/Desktop/bicopter/imu/mpu6050.cpp" "CMakeFiles/project1.dir/imu/mpu6050.cpp.o" "gcc" "CMakeFiles/project1.dir/imu/mpu6050.cpp.o.d"
   "/home/hari/Desktop/bicopter/main.cpp" "CMakeFiles/project1.dir/main.cpp.o" "gcc" "CMakeFiles/project1.dir/main.cpp.o.d"
   )
 

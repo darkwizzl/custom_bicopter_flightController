@@ -6,7 +6,8 @@
 #include "hardware/gpio.h"
 
 #include "ibus.h"
-#include "imu.h"
+#include "mpu6050.h"
+#include "hmc5883l.h"
 
 #define PI 3.14159265358979323846f
 #define MAX_DEFLECTION 90
@@ -150,31 +151,39 @@ int main(){
 
     //callibrateEsc();
     resetAllMotors();
-    
     MPU6050init();
-    float gyro[3];
-    float accel[3];
-    float angle = 0.0f;
 
-    float roll  = 0.0f;
-    float pitch = 0.0f;
+    HMC5883L mag;
+    if (!HMC5883L_init(&mag, i2c1, HMC_SAMPLES_8 | HMC_ODR_15, HMC_GAIN_1_3)) {
+        printf("HMC5883L not found\n");
+    }
+
+    float gyro[3], accel[3];
+    float roll_rad  = 0.0f;
+    float pitch_rad = 0.0f;
 
     absolute_time_t prevTime = get_absolute_time();
 
-    while(true){
-        // dt
+    while (true) {
         absolute_time_t now = get_absolute_time();
         float dt = absolute_time_diff_us(prevTime, now) / 1000000.0f;
         prevTime = now;
 
         MPU6050read(gyro, accel);
+        HMC5883L_read(&mag);
 
-        float accel_roll  = atan2f(accel[1], accel[2]) * 180/PI;
-        float accel_pitch = atan2f(-accel[0], sqrtf(accel[1]*accel[1] + accel[2]*accel[2])) * 180/PI;
+        float accel_roll  = atan2f(accel[1], accel[2])                                       * (180.0f / PI);
+        float accel_pitch = atan2f(-accel[0], sqrtf(accel[1]*accel[1] + accel[2]*accel[2])) * (180.0f / PI);
 
-        roll  = 0.98f * (roll  + gyro[0]*dt) + 0.02f * accel_roll;
-        pitch = 0.98f * (pitch + gyro[1]*dt) + 0.02f * accel_pitch;
+        float roll_deg  = 0.98f * (roll_rad  * (180.0f/PI) + gyro[0]*dt) + 0.02f * accel_roll;
+        float pitch_deg = 0.98f * (pitch_rad * (180.0f/PI) + gyro[1]*dt) + 0.02f * accel_pitch;
 
-        printf("roll: %.2f  pitch: %.2f  dt: %.4f\n", roll, pitch, dt);
+        roll_rad  = roll_deg  * (PI / 180.0f);
+        pitch_rad = pitch_deg * (PI / 180.0f);
+
+        float heading;
+        HMC5883L_heading_tilt_compensated(&mag, roll_rad, pitch_rad, &heading);
+
+        printf("roll: %.2f  pitch: %.2f  heading: %.1f\n", roll_deg, pitch_deg, heading);
     }
 }

@@ -2010,29 +2010,53 @@ ibus/ibus.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/ibus/ibus.cpp.s
 .PHONY : ibus/ibus.cpp.s
 
-imu/imu.o: imu/imu.cpp.o
-.PHONY : imu/imu.o
+imu/hmc5883l.o: imu/hmc5883l.cpp.o
+.PHONY : imu/hmc5883l.o
 
 # target to build an object file
-imu/imu.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/imu/imu.cpp.o
-.PHONY : imu/imu.cpp.o
+imu/hmc5883l.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/imu/hmc5883l.cpp.o
+.PHONY : imu/hmc5883l.cpp.o
 
-imu/imu.i: imu/imu.cpp.i
-.PHONY : imu/imu.i
+imu/hmc5883l.i: imu/hmc5883l.cpp.i
+.PHONY : imu/hmc5883l.i
 
 # target to preprocess a source file
-imu/imu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/imu/imu.cpp.i
-.PHONY : imu/imu.cpp.i
+imu/hmc5883l.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/imu/hmc5883l.cpp.i
+.PHONY : imu/hmc5883l.cpp.i
 
-imu/imu.s: imu/imu.cpp.s
-.PHONY : imu/imu.s
+imu/hmc5883l.s: imu/hmc5883l.cpp.s
+.PHONY : imu/hmc5883l.s
 
 # target to generate assembly for a file
-imu/imu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/imu/imu.cpp.s
-.PHONY : imu/imu.cpp.s
+imu/hmc5883l.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/imu/hmc5883l.cpp.s
+.PHONY : imu/hmc5883l.cpp.s
+
+imu/mpu6050.o: imu/mpu6050.cpp.o
+.PHONY : imu/mpu6050.o
+
+# target to build an object file
+imu/mpu6050.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/imu/mpu6050.cpp.o
+.PHONY : imu/mpu6050.cpp.o
+
+imu/mpu6050.i: imu/mpu6050.cpp.i
+.PHONY : imu/mpu6050.i
+
+# target to preprocess a source file
+imu/mpu6050.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/imu/mpu6050.cpp.i
+.PHONY : imu/mpu6050.cpp.i
+
+imu/mpu6050.s: imu/mpu6050.cpp.s
+.PHONY : imu/mpu6050.s
+
+# target to generate assembly for a file
+imu/mpu6050.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project1.dir/build.make CMakeFiles/project1.dir/imu/mpu6050.cpp.s
+.PHONY : imu/mpu6050.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -2299,9 +2323,12 @@ help:
 	@echo "... ibus/ibus.o"
 	@echo "... ibus/ibus.i"
 	@echo "... ibus/ibus.s"
-	@echo "... imu/imu.o"
-	@echo "... imu/imu.i"
-	@echo "... imu/imu.s"
+	@echo "... imu/hmc5883l.o"
+	@echo "... imu/hmc5883l.i"
+	@echo "... imu/hmc5883l.s"
+	@echo "... imu/mpu6050.o"
+	@echo "... imu/mpu6050.i"
+	@echo "... imu/mpu6050.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

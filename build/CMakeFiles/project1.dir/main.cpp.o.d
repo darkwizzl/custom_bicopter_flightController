@@ -105,7 +105,8 @@ CMakeFiles/project1.dir/main.cpp.o: /home/hari/Desktop/bicopter/main.cpp \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
  /home/hari/Desktop/bicopter/ibus/ibus.h \
- /home/hari/Desktop/bicopter/imu/imu.h \
+ /home/hari/Desktop/bicopter/imu/mpu6050.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
- /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/i2c.h
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+ /home/hari/Desktop/bicopter/imu/hmc5883l.h

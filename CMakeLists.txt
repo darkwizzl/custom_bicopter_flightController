@@ -14,7 +14,8 @@ pico_sdk_init()
 add_executable(project1 
                 main.cpp
                 ibus/ibus.cpp
-                imu/imu.cpp)
+                imu/mpu6050.cpp
+                imu/hmc5883l.cpp)
 
 target_link_libraries(project1 
                       pico_stdlib
