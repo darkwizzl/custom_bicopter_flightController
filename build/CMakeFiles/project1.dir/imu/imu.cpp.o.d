@@ -1,6 +1,7 @@
 CMakeFiles/project1.dir/imu/imu.cpp.o: \
  /home/hari/Desktop/bicopter/imu/imu.cpp \
- /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+ /home/hari/Desktop/bicopter/imu/imu.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/src/common/pico_stdlib_headers/include/pico/stdlib.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/types.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/assert.h \
@@ -33,15 +34,14 @@ CMakeFiles/project1.dir/imu/imu.cpp.o: \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/common/pico_base_headers/include/pico/error.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/include/pico/stdio.h \
+ /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/common/pico_time/include/pico/time.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/include/hardware/timer.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
- /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
- /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
- /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
@@ -54,4 +54,15 @@ CMakeFiles/project1.dir/imu/imu.cpp.o: \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
  /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
- /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/scb.h
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_uart/include/hardware/uart.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_resets/include/hardware/resets.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+ /home/hari/.pico-sdk/sdk/2.2.0/src/rp2040/hardware_regs/include/hardware/regs/i2c.h
