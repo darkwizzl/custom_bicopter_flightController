@@ -23,7 +23,7 @@
 
 int finAngles[4] = {45, 135,225, 315};
 int servoList[4] = {servo1,servo2,servo3,servo4};
-int servoNeutral[4] = {90-5,90-30,90+4,90-22};
+int servoNeutral[4] = {90-25,90-10,90-20,90};
 
 float toRadians(float deg){
     return (deg*PI/180.0f);
