@@ -149,12 +149,29 @@ int main(){
     callibrateEsc();
     resetAllMotors();
 
+    int throttleMod;
+    int throttleModtop;
+    int throttleModbot;
+
     while(true){
         if(readIBus(IBusData)){
             if(IBusData[4] > 1900){
                 fin_mixing(&IBusData[0]);
-                pwm_set_gpio_level(bldcTop, IBusData[2]);
-                pwm_set_gpio_level(bldcBot, IBusData[2]);
+                throttleMod = IBusData[3]-1500;
+
+                throttleModtop = IBusData[2] + throttleMod;
+                throttleModbot = IBusData[2] - throttleMod;
+
+                //clamping to lowest and highest limit 
+                if(throttleModtop <1000) throttleModtop = 1000;
+                if(throttleModbot <1000) throttleModbot = 1000;
+
+                if(throttleModtop >2000) throttleModtop = 2000;
+                if(throttleModbot >2000) throttleModbot = 2000;
+
+                //running motors
+                pwm_set_gpio_level(bldcTop, throttleModtop);
+                pwm_set_gpio_level(bldcBot, throttleModbot);
                 gpio_put(17,1);
                 toggleLed(GREEN,50); 
             }
