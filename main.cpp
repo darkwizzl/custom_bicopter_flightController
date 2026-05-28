@@ -74,6 +74,14 @@ void fin_mixing(int data[]) {
     }
 }
 
+void yaw_mixing(int throttle){
+    float angle = 45.0f/500.0f *throttle;
+    setServo(servo1,servoNeutral[0]-angle);
+    setServo(servo2,servoNeutral[1]-angle);
+    setServo(servo3,servoNeutral[2]-angle);
+    setServo(servo4,servoNeutral[3]-angle);
+
+}
 void toggleLed(int led, int time_ms){
 
     static bool initialized = false;
@@ -156,11 +164,11 @@ int main(){
     while(true){
         if(readIBus(IBusData)){
             if(IBusData[4] > 1900){
-                fin_mixing(&IBusData[0]);
+                //fin_mixing(&IBusData[0]);
                 throttleMod = IBusData[3]-1500;
 
-                throttleModtop = IBusData[2] + throttleMod;
-                throttleModbot = IBusData[2] - throttleMod;
+                throttleModtop = IBusData[2] - throttleMod;
+                throttleModbot = IBusData[2] + throttleMod;
 
                 //clamping to lowest and highest limit 
                 if(throttleModtop <1000) throttleModtop = 1000;
@@ -168,6 +176,9 @@ int main(){
 
                 if(throttleModtop >2000) throttleModtop = 2000;
                 if(throttleModbot >2000) throttleModbot = 2000;
+
+                //yaw mixing with fins
+                yaw_mixing(throttleMod);
 
                 //running motors
                 pwm_set_gpio_level(bldcTop, throttleModtop);
